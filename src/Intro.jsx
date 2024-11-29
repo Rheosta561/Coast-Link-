@@ -38,7 +38,7 @@ function Intro() {
       <br />
       <hr className="border border-zinc-500 w-1/2 rounded-lg" />
       <img src="./logo.png" alt="" className="bg-cover scale-75 -mt-28" />
-      <div className="-mt-40 text-center text-xs text-zinc-700 w-3/4 md:w-1/2">
+      <div className="md:-mt-40 -mt-24 text-center text-xs text-zinc-700 w-3/4 md:w-1/2">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sequi
         saepe sapiente ut mollitia natus asperiores,Lorem ipsum dolor sit amet,
         consectetur adipisicing elit. Soluta, impedit.{" "}
@@ -58,9 +58,9 @@ function Intro() {
           ></video>
         </div>
 
-        <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center  text-7xl md:text-7xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-teal-200 to-teal-200">
+        <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center  text-2xl md:text-7xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-teal-200 to-teal-200">
           <p className="mt-12">Get Your CoastLink</p>
-          <div className="text-lg text-zinc-300">Powered By  
+          <div className="md:text-lg text-sm font-light text-zinc-300">Powered By  
             <span className="text-gray-400 ml-2">Tech VÖLSUNG</span>
           </div>
           <div className="text-xs font-light text-zinc-300 -mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, libero!</div>
