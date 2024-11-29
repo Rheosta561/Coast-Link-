@@ -24,7 +24,7 @@ function Intro() {
       <Avatar source="./inf2.png" title="Voice Your Talent" />
       <Avatar source="./inf3.jpg" title="Build your portfolio" />
       <br />
-      <div className="text-8xl text-center font-semibold w-">
+      <div className="text-5xl md:text-7xl text-center font-semibold w-">
         Presenting <span className="text-emerald-900">You</span> All New
       </div>
       <br />
@@ -37,7 +37,7 @@ function Intro() {
       </div>
       <br />
       <hr className="border border-zinc-500 w-1/2 rounded-lg" />
-      <img src="./logo.png" alt="" className="bg-cover scale-75 -mt-28" />
+      <img src="./logo.png" alt="" className="bg-cover scale-75 -mt-20 md:-mt-28" />
       <div className="md:-mt-40 -mt-24 text-center text-xs text-zinc-700 w-3/4 md:w-1/2">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem sequi
         saepe sapiente ut mollitia natus asperiores,Lorem ipsum dolor sit amet,
@@ -47,7 +47,7 @@ function Intro() {
         <Submit />
       </div>
       <br />
-      <div className="h-72 w-3/4 opacity-85 relative">
+      <div className="h-fit w-3/4 opacity-85 relative">
         <div className="h-full w-full">
           <video
             src="https://cdn.pixabay.com/video/2024/03/18/204565-924698132_large.mp4"
@@ -58,14 +58,14 @@ function Intro() {
           ></video>
         </div>
 
-        <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center  text-2xl md:text-7xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-teal-200 to-teal-200">
-          <p className="mt-12">Get Your CoastLink</p>
-          <div className="md:text-lg text-sm font-light text-zinc-300">Powered By  
+        <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center   text-2xl md:text-7xl font-semibold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-teal-200 to-teal-200 p-1">
+          <p className="md:mt-12">Get Your CoastLink</p>
+          <div className="md:text-lg text-xs font-light text-zinc-300">Powered By  
             <span className="text-gray-400 ml-2">Tech VÖLSUNG</span>
           </div>
-          <div className="text-xs font-light text-zinc-300 -mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, libero!</div>
-          <div className="text-xs font-light text-zinc-300 -mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, libero!</div>
-          <div className="text-xs font-light text-zinc-300 -mt-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit </div>
+          <div className="text-xs font-light text-zinc-300 md:-mt-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, libero! Lorem ipsum dolor sit, amet consectetur </div>
+          
+          
 
         </div>
       </div>
